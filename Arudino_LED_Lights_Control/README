@@ -1,0 +1,34 @@
+~ SYNOPSIS :
+  ________
+
+	- This is the basic program used to control the Arduino UNO 3 Test program to control the LED lights on it.
+
+
+~ PYTHON VERSION : PYTHON 3.5
+  ______________
+
+
+~ PYTHON PACKAGES :
+  _______________
+
+	- import serial
+		- Package used for Controlling the Arduino.
+
+~ SCRIPT NAME : ControlLingLedLights.py
+  ___________
+
+
+~ USAGE :
+  _____
+
+	python ControlLingLedLights.py
+		- Requires Dynamic Inputs.
+			- Enter 1 to TURN ON the LED Light in Arduino UNO 3.
+			- Enter 0 to TURN OFF the LED Light in Arduino UNO 3.
+			- Other inputs will be treated as a quit command.
+
+~ CONSTRAINTS :
+  ___________
+
+	- The com port must be identified before connecting and we must know which one we have connected our
+	  Arduino UNO to.
